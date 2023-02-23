@@ -7,7 +7,7 @@ import { RootState } from '../redux/store'
 export const SideNav = () => {
   const selector : TypedUseSelectorHook<RootState> = useSelector
   const show = selector(state => state.navData.show)
-console.log("fgh")
+
   return (
     <div className={`${show} position-fixed sideNav d-flex justify-content-center align-items-center h-100 bg-danger`}>
       <ul className='d-flex flex-column gap-5 justify-content-center w-100'>
