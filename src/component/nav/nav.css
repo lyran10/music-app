@@ -1,0 +1,56 @@
+.sideNav{
+  width : 10rem;
+  /* transform: translate(-300px); */
+  transition: 0.5s;
+  margin-top: 45px;
+}
+
+.show{
+  transform: translate(0px);
+}
+
+.dontShow{
+  transform: translate(-1200px);
+}
+
+ul{
+  text-decoration: none;
+  padding-left: 0px;  
+}
+
+li{
+  list-style: none;
+  transition: 0.5s;
+  cursor: pointer;
+  color: white;
+}
+
+li:hover{
+  color : red;
+  background-color: white;
+}
+
+
+
+@media (min-width: 576px) { 
+  .sideNav{
+    width: 15rem;
+    transform: translate(0px);
+    margin-top: 0px;
+  }
+
+  .navBar{
+    display: none;
+   }
+ }
+
+
+
+
+@media (min-width: 768px) { }
+
+@media (min-width: 992px) { }
+
+@media (min-width: 1200px) { }
+
+@media (min-width: 1400px) { }

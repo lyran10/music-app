@@ -1,0 +1,44 @@
+.mainAuth::before{
+  background-image: url(../auth//music.jpg);
+  position: absolute;
+  content: "";
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  filter: brightness(50%);
+}
+
+.box::before{
+  background-color: black;
+  position: absolute;
+  content: "";
+  opacity: 0.5;
+  width: 100%;
+  height: 100%;
+}
+
+.buttons:hover{
+  transform: translateY(-2px);
+  transition: 0.5s;
+
+}
+
+
+
+@media (max-width: 576px) { 
+  .buttons{
+    font-size: 12px;
+  }
+ }
+
+
+@media (min-width: 768px) { }
+
+@media (min-width: 992px) { }
+
+@media (min-width: 1200px) { }
+
+@media (min-width: 1400px) { }
+
+
